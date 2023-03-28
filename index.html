@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificando sua idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <strong>Diga o ano em que você nasceu: </strong>
+                <input type="number" name="txtano" id="txtano">
+            </p>
+        </div><br>
+        <div>
+            <p>
+                <strong>Seu sexo: </strong>
+                <label><input type="radio" name="sexo" id="masc"> Masculino</label>
+                <label><input type="radio" name="sexo" id="femi"> Feminino</label>
+            </p>
+        </div><br>
+
+        <div id="resultado">
+            <strong>Preencha os campos e verifique sua idade.</strong>
+        </div><br>
+
+        <input type="button" value="Concluir" id="botao" onclick="concluir()">
+    </section>
+
+    <footer>
+        <p>&copy; DeveloperWD</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
